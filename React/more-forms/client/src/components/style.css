@@ -1,0 +1,22 @@
+*{
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    justify-content: space-around;
+    display: flex;
+    margin-left: 37%;
+    border: solid 2px black;
+    background-color: gray;
+    width: 25%;
+}
+.button{
+    margin-top: 5px;
+    background-color: green;
+    width: 150px;
+    height: 25px;
+}
+p{
+    background-color: red;
+    color: white;
+}
