@@ -1,6 +1,6 @@
 import React, { useState } from  'react';
 import './style.css';
-    
+
 const UserForm = (props) => {
     const [firstname, setFirstName] = useState("");
     const [lastname, setLastName] = useState("");
