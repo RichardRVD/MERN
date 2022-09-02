@@ -50,24 +50,29 @@ const UserForm = (props) => {
             <form onSubmit={ createUser }>
                 <div className='input'>
                     <label>First Name: </label> 
-                    <input  type="text" onChange={ (e) => setFirstName(e.target.value) } />{firstError ? <p>{firstError}</p> : ""}
+                    <input  type="text" onChange={ (e) => setFirstName(e.target.value) } />
                 </div>
+                <div className='error'>{firstError ? <p>{firstError}</p> : ""}</div>
                 <div className='input'>
                     <label>Last Name: </label> 
-                    <input type="text" onChange={ (e) => setLastName(e.target.value) } />{lastError ? <p>{lastError}</p> : ""}
+                    <input type="text" onChange={ (e) => setLastName(e.target.value) } />
                 </div>
+                <div className='error'>{lastError ? <p>{lastError}</p> : ""}</div>
                 <div className='input'>
                     <label>Email Address: </label> 
-                    <input type="email" onChange={ (e) => setEmail(e.target.value) } />{emailError ? <p>{emailError}</p> : ""}
+                    <input type="email" onChange={ (e) => setEmail(e.target.value) } />
                 </div>
+                <div className='error'>{emailError ? <p>{emailError}</p> : ""}</div>
                 <div className='input'>
                     <label>Password: </label>
-                    <input type="password" onChange={ (e) => setPassword(e.target.value) } />{passError ? <p>{passError}</p> : ""}
+                    <input type="password" onChange={ (e) => setPassword(e.target.value) } />
                 </div>
+                <div className='error'>{passError ? <p>{passError}</p> : ""}</div>
                 <div className='input'>
                     <label>Confirm Password: </label>
-                    <input type="password" onChange={ (e) => setConfirmPassword(e.target.value) } />{conPassError ? <p>{conPassError}</p> : ""}
+                    <input type="password" onChange={ (e) => setConfirmPassword(e.target.value) } />
                 </div>
+                <div className='error'>{conPassError ? <p>{conPassError}</p> : ""}</div>
                 <input className='button' type="submit" value="Create User" />
             </form>
             <h1>
