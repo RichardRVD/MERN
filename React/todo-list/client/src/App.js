@@ -14,7 +14,7 @@ function App() {
           <AddTask list= { list } setList = { setList } />
 
           <h3> Here are your unfinished tasks: </h3>
-          { list.map(( task, i ) => <Task key = { i } index = { i } list = { list } setList = { setList } /> )}
+          { list.map(( _task, i ) => <Task key = { i } index = { i } list = { list } setList = { setList } /> )}
         </div>
       </div>
     </div>
