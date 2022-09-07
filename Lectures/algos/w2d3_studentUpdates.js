@@ -94,8 +94,6 @@ function findByIdAndUpdate(id, updatedVals, collection) {
         }
     }
     return foundObject;
-
-
 }
 console.log(findByIdAndUpdate(id1, updateData1, students));
 console.log(findByIdAndUpdate(id2, updateData2, students));
