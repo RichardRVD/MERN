@@ -1,0 +1,124 @@
+{
+    "jokes": [
+        {
+            "_id": "631bb8f0a26db09ee5638791",
+            "thejoke": "Whats the internal temperature of a Tauntaun?",
+            "answer": "Lukewarm",
+            "__v": 0
+        },
+        {
+            "_id": "631bb91ca26db09ee5638793",
+            "thejoke": "Why did Episodes 4, 5, and 6 come out before 1, 2, and 3?",
+            "answer": "Because in charge of directing, Yoda was.",
+            "__v": 0
+        },
+        {
+            "_id": "631bb937a26db09ee5638795",
+            "thejoke": "What did Darth Vader say when he walked into a vegetarian restaurant?",
+            "answer": "I find your lack of steak disturbing.",
+            "__v": 0
+        },
+        {
+            "_id": "631bb950a26db09ee5638797",
+            "thejoke": "How does Wicket get around Endor?",
+            "answer": "Ewoks.",
+            "__v": 0
+        },
+        {
+            "_id": "631bb968a26db09ee5638799",
+            "thejoke": "What do you call five Siths piled on top of a lightsaber?",
+            "answer": "Sith-Kebab",
+            "__v": 0
+        },
+        {
+            "_id": "631bb97da26db09ee563879b",
+            "thejoke": "Where did Luke get his bionic hand?",
+            "answer": "At the second hand store.",
+            "__v": 0
+        },
+        {
+            "_id": "631bb99ca26db09ee563879d",
+            "thejoke": "Where do Gungans store their fruit preserves?",
+            "answer": "Jar-Jars",
+            "__v": 0
+        },
+        {
+            "_id": "631bb9b3a26db09ee563879f",
+            "thejoke": "What do you call it when only one Star Wars character gives you a round of applause?",
+            "answer": "A Hand Solo",
+            "__v": 0
+        },
+        {
+            "_id": "631bb9c7a26db09ee56387a1",
+            "thejoke": "What goes, Ha, ha, ha, haaaa…. AGGGHHHH! Thump?",
+            "answer": "An Imperial Officer laughing at Darth Vader.",
+            "__v": 0
+        },
+        {
+            "_id": "631bb9daa26db09ee56387a3",
+            "thejoke": "Why is Yoda such a good gardener?",
+            "answer": "Because he has a green thumb.",
+            "__v": 0
+        },
+        {
+            "_id": "631bb9f1a26db09ee56387a5",
+            "thejoke": "Which program do Jedi use to open PDF files?",
+            "answer": "Adobe-Wan Kenobi",
+            "__v": 0
+        },
+        {
+            "_id": "631bba02a26db09ee56387a7",
+            "thejoke": "What did Darth Vader say to the Emperor at the Star Wars auction?",
+            "answer": "What is thy bidding, my master?",
+            "__v": 0
+        },
+        {
+            "_id": "631bba1fa26db09ee56387a9",
+            "thejoke": "What did Obi-Wan tell Luke when his young apprentice was having a difficult time using chopsticks at the Chinese restaurant?",
+            "answer": "Use the forks, Luke.",
+            "__v": 0
+        },
+        {
+            "_id": "631bba32a26db09ee56387ab",
+            "thejoke": "What do you get if you mix a bounty hunter with a tropical fruit?",
+            "answer": "Mango Fett",
+            "__v": 0
+        },
+        {
+            "_id": "631bba51a26db09ee56387ad",
+            "thejoke": "What time is it when an AT-AT steps on your chronometer?",
+            "answer": "Time to get a new chronometer.",
+            "__v": 0
+        },
+        {
+            "_id": "631bba62a26db09ee56387af",
+            "thejoke": "Why are Death Star pilots fed up with space battles?",
+            "answer": "Because they always end up in a TIE.",
+            "__v": 0
+        },
+        {
+            "_id": "631bba7ba26db09ee56387b1",
+            "thejoke": "Is BB hungry?",
+            "answer": "No, BB-8",
+            "__v": 0
+        },
+        {
+            "_id": "631bba8ba26db09ee56387b3",
+            "thejoke": "How does Darth Vader like his toast?",
+            "answer": "On the dark side.",
+            "__v": 0
+        },
+        {
+            "_id": "631bba9ca26db09ee56387b5",
+            "thejoke": "Have you tried the gluten-free Wookiee treats?",
+            "answer": "No, but I heard they are a little Chewy.",
+            "__v": 0
+        },
+        {
+            "_id": "631bbab2a26db09ee56387b7",
+            "thejoke": "How do Ewoks communicate over long distances?",
+            "answer": "With Ewokie Talkies.",
+            "__v": 0
+        }
+    ]
+}
