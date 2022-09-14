@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import _ from 'lodash';
 
 const AllAuthors = () => {
     const [allAuthors, setAllAuthors] = useState([]);
@@ -10,7 +11,7 @@ const AllAuthors = () => {
         axios.get("http://localhost:8000/api/authors")
         .then(response => {
             console.log(response.data.results)
-            setAllAuthors(response.data.results)
+            setAllAuthors(_.orderBy(response.data.results,['name'],['asc']))
         })
         .catch(err => console.log(err))
     },[deleteToggle])
