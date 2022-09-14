@@ -4,6 +4,9 @@ import axios from 'axios';
 
 const AddHero = () => {
     const navigate = useNavigate();
+
+    const [errors, setErrors] = useState([])
+
     const [formInfo, setFormInfo] = useState({
         name: "",
         rating: "",
@@ -22,13 +25,22 @@ const AddHero = () => {
             console.log(response)
             navigate("/")
         })
-        .catch(err => console.log("error creating hero", err));
+        .catch(err => {
+            const errorResponse = err.response.data.err.errors;
+            console.log("This is the catch: ", err.response.data.err.error)
+            const errorArr = [];
+            for(const key of Object.keys(errorResponse)){
+                errorArr.push(errorResponse[key].message)
+            }
+            setErrors(errorArr)
+        });
     }
 
     return (
         <div className='container'>
             <h1>Add Hero</h1>
             <form className='form form-control' onSubmit={submitHandler} >
+                {errors.map((err, index) => <p key={index} className="text-danger" >{err}</p> )}
                 <div className="mb-3 d-flex">
                     <label className='form-label'>Name: </label>
                     <input type="text" className='form-label' name='name' onChange={onChangeHandler} />
